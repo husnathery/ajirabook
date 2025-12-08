@@ -32,7 +32,7 @@ Deno.serve(async (req) => {
     console.log(`Fetched ${books?.length || 0} books`);
 
     // Use the production domain
-    const baseUrl = 'https://dirajumla-publishers.com';
+    const baseUrl = 'https://ajira-mpya.com';
 
     // Create slug from title
     const slugify = (text: string): string => {
