@@ -27,7 +27,7 @@ const TopNavbar = ({ onMenuClick, showMenuButton }: TopNavbarProps) => {
         
         {/* Logo/Title */}
         <h1 className="text-lg font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent flex-1">
-          Dirajumla Publishers
+         Ajira Mpya
         </h1>
         
         {/* Theme toggle */}
