@@ -1,0 +1,22 @@
+project_id = "oozksqrnqsbkbfpvwcql"
+
+[functions.send-otp]
+verify_jwt = false
+
+[functions.send-temp-password]
+verify_jwt = false
+
+[functions.zenopay-payment]
+verify_jwt = false
+
+[functions.generate-sitemap]
+verify_jwt = false
+
+[functions.check-purchase-auth]
+verify_jwt = true
+
+[functions.process-withdrawal]
+verify_jwt = true
+
+[functions.process-deposit]
+verify_jwt = true
